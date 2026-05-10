@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h1>About Me</h1>
+
+<div class="card">
+<h2 id="typing"></h2>
+
+<p>
+Hello! I am a Frontend Developer.
+I create websites using HTML, CSS and JavaScript.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h1>Skills</h1>
+
+<div class="card skills">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Java</span>
+</div>
+</section>
+
+<section id="projects">
+<h1>Projects</h1>
+
+<div class="card">
+<div class="project">
+<h2>Portfolio Website</h2>
+<p>Responsive portfolio project.</p>
+</div>
+
+<div class="project">
+<h2>To-Do App</h2>
+<p>Task management web application.</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h1>Contact</h1>
+
+<div class="card">
+
+<input type="text" placeholder="Enter Name">
+
+<input type="email" placeholder="Enter Email">
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button onclick="message()">
+Send
+</button>
+
+<p id="msg"></p>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 My Portfolio</p>
+</footer>
+
+<button onclick="topFunction()" id="topBtn">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
